@@ -1,1 +1,1 @@
-# news-site-progression-solution-part1
+https://github.com/hoc-labs/news-site-progression#readme
