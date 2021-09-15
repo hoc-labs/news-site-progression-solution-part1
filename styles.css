@@ -1,20 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+
 html {
+
   --primary-color: #c72727;
-  --light-color: #f3f3f3;
-  --dark-color: #333;
-  --link-color: #333;
-  --sports-color: #f99500;
-  --arts-color: #a66bbe;
-  --tech-color: #009cff;
+  --light-color:   #f3f3f3;
+  --dark-color:    #333;
+  --sports-color:  #f99500;
+  --arts-color:    #a66bbe;
+  --tech-color:    #009cff;
   --science-color: #3bd142;
-  --food-color: #d1483b;
+  --food-color:    #d1483b;
+  --link-color:    #333;
+  
 }
+
+
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--light-color);
+}
+
+.container {
+  width:90%;
+  margin: 0 auto;
 }
 
 article img {
@@ -32,7 +42,7 @@ a {
   grid-gap: 16px;
 }
 
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
